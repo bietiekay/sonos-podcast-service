@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{FD3DECDF-A944-495F-A9F3-D68AEF987D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OctoTorrent", "OctoTorrent", "{10DB82ED-0B47-413B-9646-E0B5F568A0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoTorrent", "Libraries\OctoTorrent\OctoTorrent\OctoTorrent.csproj", "{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoTorrent.Dht", "Libraries\OctoTorrent\OctoTorrent.Dht\OctoTorrent.Dht.csproj", "{7A2A7E73-FD43-4171-AA34-DA413D35459E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleClient", "Libraries\OctoTorrent\SampleClient\SampleClient.csproj", "{9CC2CC3A-4041-4857-AF8B-D58745FD3066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "Libraries\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sonos-podcast-service", "sonos-podcast-service\sonos-podcast-service.csproj", "{7B20494B-A826-43E3-B3E1-8220CA8FF769}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{304FF10B-8836-4DD1-A359-2F84F36CF42C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Stats|Any CPU = Stats|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Stats|Any CPU.ActiveCfg = Stats|Any CPU
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8}.Stats|Any CPU.Build.0 = Stats|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Stats|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E}.Stats|Any CPU.Build.0 = Debug|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Stats|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B20494B-A826-43E3-B3E1-8220CA8FF769}.Stats|Any CPU.Build.0 = Debug|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Stats|Any CPU.ActiveCfg = Stats|Any CPU
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066}.Stats|Any CPU.Build.0 = Stats|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Stats|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Stats|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10DB82ED-0B47-413B-9646-E0B5F568A0A2} = {FD3DECDF-A944-495F-A9F3-D68AEF987D51}
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D} = {FD3DECDF-A944-495F-A9F3-D68AEF987D51}
+		{411A9E0E-FDC6-4E25-828A-0C2CD1CD96F8} = {10DB82ED-0B47-413B-9646-E0B5F568A0A2}
+		{7A2A7E73-FD43-4171-AA34-DA413D35459E} = {10DB82ED-0B47-413B-9646-E0B5F568A0A2}
+		{9CC2CC3A-4041-4857-AF8B-D58745FD3066} = {10DB82ED-0B47-413B-9646-E0B5F568A0A2}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = sonos-podcast-service\sonos-podcast-service.csproj
+	EndGlobalSection
+EndGlobal
